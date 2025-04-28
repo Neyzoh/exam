@@ -1,6 +1,6 @@
 
 #ifndef FT_LIST_SIZE
-# define FT_LIST_SIZE
+#define FT_LIST_SIZE
 
 typedef struct    s_list
 {

@@ -3,13 +3,13 @@
 
 int	ft_list_size(t_list *begin_list)
 {
-    int i;
+    int size;
 
-    i = 0;
+    size = 0;
     while (begin_list->next)
     {
         begin_list = begin_list->next;
-        i++;
+        size++;
     }
-    return(i);
+    return(size);
 }
